@@ -26,5 +26,5 @@ stages:
         containerRegistry: 'target11-dockerhub'
         repository: 'target11/petclinic-devops'
         command: 'buildAndPush'
-        Dockerfile: '**/Dockerfile'
+        Dockerfile: '**/docker-compose'
         tags: '$(tag)'
